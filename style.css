@@ -703,16 +703,20 @@ div.hero-socialslinks a:hover {
     
 }
 .skills-pro-badge {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    display: inline-flex;
+    flex-wrap: wrap; 
+    /* gap: 100px; */
     background-color: #065cc2;
     color: white;
-    padding: 15px 18px;
+    padding: 18px 20px;
     border-radius: 50px;
     font-size: 0.7rem;
     font-weight: 700;
     letter-spacing: 0.5px;
+}
+.skills-pro-badge:not(:last-child) {
+    margin-right: 5px; 
+    margin-top: 10px;
 }
 
     
